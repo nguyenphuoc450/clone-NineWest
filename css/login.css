@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f0f2f5;
+}
+
+.form{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+  /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.container_login{
+    width: 768px;
+    background-color:#ffffff;
+    padding: 50px 50px;
+    display: block;
+}
+
+.container_login > a{
+    display: block;
+    text-align: center;
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.container_login > a:hover{
+    color: #9D9D9D;
+}
+
+
+
+.login_label{
+    display: block;
+    font-size: 16px;
+    color: #000000;
+}
+
+.login_input{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+.remember_pass p{
+    display: inline-block;
+    font-size: 12px;
+}
+
+.button_login{
+    background-color: #1877f2;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button_login:hover{
+    background-color: #0d65d9;
+}
+
+
+
+.dash{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.dangKy{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.button_dangky{
+    background-color: #42b72a;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 50%;
+    display: block;
+}
+
+.button_dangky:hover{
+    background-color: #3ba626;
+    
+}
+
+
+
+/* Form Đăng ký */
+
+.container_register{
+    width: 768px;
+    background-color:#ffffff;
+    padding: 50px 50px;
+    display: none;
+}
+
+
+.infor_1{
+    display: flex;
+    justify-content: space-between;
+}
+
+#register_input_1{
+    width:49%;
+}
+
+
+
+
+.register_input{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.container_register >a{
+    color: #000000;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.container_register >a:hover{
+    color: #9D9D9D;
+}
+
+.button_register{
+    background-color: #42b72a;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+}
+.button_register:hover{
+    background-color: #3ba626;
+    
+}
+
+
+.container_button_login_2{
+    display: flex;
+    justify-content: center;
+}
+
+.button_login_2{
+    background-color: #1877f2;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 50%;
+  
+}
+
+.button_login_2:hover{
+    background-color: #0d65d9;
+}

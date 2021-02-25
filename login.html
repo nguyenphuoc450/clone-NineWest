@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="form">
+        
+        <div class="container_login" >
+            <p class="title">Đăng nhập</p>
+            <label for="" class="login_label">Tên tài khoản</label>
+            <input type="text" placeholder="Nhập tên tài khoản" class="login_input">
+            <label for="" class="login_label">Mật khẩu</label>
+            <input type="password" placeholder="Nhập mật khẩu" class="login_input">
+
+            <div class="remember_pass">
+                <input type="checkbox">
+                <p>Ghi nhớ mật khẩu</p>
+            </div>
+            
+            <button class="button_login">Đăng nhập</button>
+            <a href="#">Quên mật khẩu ?</a>
+            <div class="dash"></div>
+
+            <div class="dangKy">
+                <button class="button_dangky" onclick="Register()">Đăng ký tài khoản mới</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="form">
+        <div class="container_register">
+            <p class="title">Đăng ký</p>
+            <div class="infor">
+                <div class="infor_1">
+                    
+                    <input type="text" placeholder="Họ" class="register_input" id="register_input_1">
+                    <input type="text" placeholder="Tên" class="register_input" id="register_input_1">  
+                </div>
+                
+            </div>
+            <div class="infor">
+                <input type="text" placeholder="Tên tài khoản" class="register_input">
+            </div>
+            <div class="infor">
+                <input type="text" placeholder="Mật khẩu" class="register_input">
+            </div>
+            <div class="infor">
+                <input type="text" placeholder="Nhập lại mật khẩu" class="register_input">
+            </div>
+            <div class="infor">
+                <input type="text" placeholder="Địa chỉ Email" class="register_input">
+            </div>
+            <div class="infor">
+                <input type="text" placeholder="Số điện thoại" class="register_input">
+            </div>
+            <input type="checkbox">
+            <a href="#">Bạn đồng ý với những điều khoản , chính sách của chúng tôi </a>
+            <button class="button_register">Đăng ký</button>
+            <div class="dash"></div>
+            <div class="container_button_login_2">
+                <button class="button_login_2" onclick="back()">Đăng nhập</button>
+            </div>
+            
+        </div>
+    </div>
+</body>
+<script src="js/login.js"></script>
+</html>
